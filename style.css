@@ -1,3 +1,27 @@
-h1, h2 {
+h1, h2, h3, p, li {
   font-family: Lato;
+}
+
+p, li{
+  font-size:13px;
+}
+
+b{
+  color:#5878aa
+}
+
+@media print
+{    
+    .pagebreak
+    {
+      page-break-before:always;
+    }
+    .no-print
+    {
+        display: none !important;
+    }
+    .print
+    {
+        display: block !important;
+    }
 }
