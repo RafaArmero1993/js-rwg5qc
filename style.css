@@ -1,4 +1,4 @@
-h1, h2, h3, p, li {
+h1, h2, h3, p, li, h4, h5, h6, span {
   font-family: Lato;
 }
 
@@ -24,4 +24,8 @@ b{
     {
         display: block !important;
     }
+}
+
+span{
+  font-weight:bold;
 }
