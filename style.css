@@ -14,6 +14,10 @@ b{
 {    
     .pagebreak
     {
+      page-break-before: always;
+    }
+    .pagebreak
+    {
       page-break-before:always;
     }
     .no-print
