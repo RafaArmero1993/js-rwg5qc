@@ -33,3 +33,8 @@ b{
 span{
   font-weight:bold;
 }
+
+#viz{
+ width: 530px;
+ height: 300px;
+}
